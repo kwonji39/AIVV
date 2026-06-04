@@ -1,4 +1,4 @@
-name: anomaly_detection
+name: aivv
 channels:
   - defaults
 dependencies:
