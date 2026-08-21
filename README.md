@@ -29,6 +29,24 @@ export GROQ_API_KEY="your_api_key_here"
 
 You can also copy `.env.example` to `.env` for local use. `.env` files are ignored by git.
 
+## Spacecraft Telemetry (Experiment 2)
+
+The spacecraft evaluation uses the public SMAP/MSL anomaly corpus of Hundman et
+al. (KDD 2018). The corpus's original S3 link is no longer served; it is now
+distributed via Kaggle (`patrickfleith/nasa-anomaly-detection-dataset-smap-msl`).
+Unzip it so the test arrays sit at `data/sat_anomaly_detection/test/<CHANNEL>.npy`,
+then run:
+
+```bash
+bash run_nasa.sh
+```
+
+The loader accepts `.npy`/`.npz` arrays directly; for multi-feature corpus
+arrays it monitors the first non-constant column. Note that three of the five
+LLM identifiers used for the reported runs have since been retired by the
+serving provider (see the paper's Methods); to smoke-test the pipeline today,
+point the agent models in `aivv/config.py` at currently served models.
+
 ## Quick Run
 
 ```bash
