@@ -1,0 +1,74 @@
+[
+  {
+    "channel": "E-8",
+    "n": 15,
+    "successes": 12,
+    "ci": [
+      54.81455128483065,
+      92.95245065301843
+    ],
+    "hits": 14,
+    "lead_fail_per_1000_mean": 6.767586821015138,
+    "lead_episodes_mean": 0.13333333333333333,
+    "confirmation_delay_median": 256.5,
+    "confirmation_delay_min": 243,
+    "confirmation_delay_max": 262,
+    "terminal_fail": 0,
+    "terminal_test_applies": true,
+    "post_fail_percent_mean": 18.836189717018733
+  },
+  {
+    "channel": "F-5",
+    "n": 15,
+    "successes": 15,
+    "ci": [
+      79.61166989641515,
+      100
+    ],
+    "hits": 15,
+    "lead_fail_per_1000_mean": 2.2813688212927756,
+    "lead_episodes_mean": 0,
+    "confirmation_delay_median": 31,
+    "confirmation_delay_min": 31,
+    "confirmation_delay_max": 31,
+    "terminal_fail": 0,
+    "terminal_test_applies": true,
+    "post_fail_percent_mean": 0.0
+  },
+  {
+    "channel": "T-4",
+    "n": 15,
+    "successes": 15,
+    "ci": [
+      79.61166989641515,
+      100
+    ],
+    "hits": 15,
+    "lead_fail_per_1000_mean": 0.0,
+    "lead_episodes_mean": 0,
+    "confirmation_delay_median": 42,
+    "confirmation_delay_min": 40,
+    "confirmation_delay_max": 42,
+    "terminal_fail": 0,
+    "terminal_test_applies": true,
+    "post_fail_percent_mean": 0.020491803278688527
+  },
+  {
+    "channel": "D-1",
+    "n": 15,
+    "successes": 15,
+    "ci": [
+      79.61166989641515,
+      100
+    ],
+    "hits": 15,
+    "lead_fail_per_1000_mean": 11.844331641285956,
+    "lead_episodes_mean": 0,
+    "confirmation_delay_median": 360,
+    "confirmation_delay_min": 360,
+    "confirmation_delay_max": 360,
+    "terminal_fail": 15,
+    "terminal_test_applies": false,
+    "post_fail_percent_mean": null
+  }
+]

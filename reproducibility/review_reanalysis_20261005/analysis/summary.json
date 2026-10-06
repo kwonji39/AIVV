@@ -1,0 +1,369 @@
+{
+  "groups": [
+    {
+      "dataset": "DS1",
+      "stage": "baseline_adaptive_conformal",
+      "n": 25,
+      "event_success": 0,
+      "literal_terminal_success": 0,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 4.92,
+      "nuisance_sd": 1.5790292376436015,
+      "lead_fail_per_1000_mean": 23.54066985645933,
+      "lead_fail_per_1000_sd": 7.555163816476562,
+      "post_fail_fraction_mean": 0.0,
+      "post_fail_fraction_sd": 0.0,
+      "fault_coverage_mean": 0.34431372549019607,
+      "fault_coverage_sd": 0.022697719417235744,
+      "sample_agreement_mean": 0.9064390243902439,
+      "sample_agreement_sd": 0.005263246604760822
+    },
+    {
+      "dataset": "DS1",
+      "stage": "baseline_classical_fdi",
+      "n": 25,
+      "event_success": 23,
+      "literal_terminal_success": 23,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 0.08,
+      "nuisance_sd": 0.27688746209726917,
+      "lead_fail_per_1000_mean": 0.0,
+      "lead_fail_per_1000_sd": 0.0,
+      "post_fail_fraction_mean": 0.0005333333333333334,
+      "post_fail_fraction_sd": 0.0018459164139817946,
+      "fault_coverage_mean": 0.676078431372549,
+      "fault_coverage_sd": 0.06331441065784228,
+      "sample_agreement_mean": 0.9595121951219512,
+      "sample_agreement_sd": 0.007680668141337887
+    },
+    {
+      "dataset": "DS1",
+      "stage": "baseline_deterministic_requirements_checker",
+      "n": 25,
+      "event_success": 23,
+      "literal_terminal_success": 23,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 0.08,
+      "nuisance_sd": 0.27688746209726917,
+      "lead_fail_per_1000_mean": 0.19138755980861244,
+      "lead_fail_per_1000_sd": 0.9569377990430622,
+      "post_fail_fraction_mean": 0.0002666666666666667,
+      "post_fail_fraction_sd": 0.0013333333333333333,
+      "fault_coverage_mean": 0.6109803921568627,
+      "fault_coverage_sd": 0.09815026390567975,
+      "sample_agreement_mean": 0.9514146341463414,
+      "sample_agreement_sd": 0.012415089358657943
+    },
+    {
+      "dataset": "DS1",
+      "stage": "baseline_homogeneous_multi_agent",
+      "n": 25,
+      "event_success": 10,
+      "literal_terminal_success": 10,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 1.6,
+      "nuisance_sd": 1.9364916731037085,
+      "lead_fail_per_1000_mean": 3.6363636363636362,
+      "lead_fail_per_1000_sd": 5.0334079228259965,
+      "post_fail_fraction_mean": 0.0056,
+      "post_fail_fraction_sd": 0.008537498983243798,
+      "fault_coverage_mean": 0.683921568627451,
+      "fault_coverage_sd": 0.0826713421554868,
+      "sample_agreement_mean": 0.956780487804878,
+      "sample_agreement_sd": 0.010479293199483333
+    },
+    {
+      "dataset": "DS1",
+      "stage": "baseline_math_sentry_only",
+      "n": 25,
+      "event_success": 10,
+      "literal_terminal_success": 10,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 1.6,
+      "nuisance_sd": 1.9364916731037085,
+      "lead_fail_per_1000_mean": 3.6363636363636362,
+      "lead_fail_per_1000_sd": 5.0334079228259965,
+      "post_fail_fraction_mean": 0.0056,
+      "post_fail_fraction_sd": 0.008537498983243798,
+      "fault_coverage_mean": 0.6847058823529412,
+      "fault_coverage_sd": 0.0831736262775859,
+      "sample_agreement_mean": 0.9568780487804878,
+      "sample_agreement_sd": 0.010554711899797434
+    },
+    {
+      "dataset": "DS1",
+      "stage": "baseline_single_llm_agent",
+      "n": 25,
+      "event_success": 10,
+      "literal_terminal_success": 10,
+      "injection_window_hit": 25,
+      "terminal_fail": 0,
+      "nuisance_mean": 1.6,
+      "nuisance_sd": 1.9364916731037085,
+      "lead_fail_per_1000_mean": 3.6363636363636362,
+      "lead_fail_per_1000_sd": 5.0334079228259965,
+      "post_fail_fraction_mean": 0.0056,
+      "post_fail_fraction_sd": 0.008537498983243798,
+      "fault_coverage_mean": 0.6831372549019608,
+      "fault_coverage_sd": 0.08196297335788903,
+      "sample_agreement_mean": 0.9566829268292683,
+      "sample_agreement_sd": 0.010378519282753136
+    },
+    {
+      "dataset": "DS1",
+      "stage": "full",
+      "n": 75,
+      "event_success": 75,
+      "literal_terminal_success": 75,
+      "injection_window_hit": 75,
+      "terminal_fail": 0,
+      "nuisance_mean": 0,
+      "nuisance_sd": 0.0,
+      "lead_fail_per_1000_mean": 0.0,
+      "lead_fail_per_1000_sd": 0.0,
+      "post_fail_fraction_mean": 0.0,
+      "post_fail_fraction_sd": 0.0,
+      "fault_coverage_mean": 0.5045751633986928,
+      "fault_coverage_sd": 0.1126077287301983,
+      "sample_agreement_mean": 0.9383739837398374,
+      "sample_agreement_sd": 0.01400730284204902
+    },
+    {
+      "dataset": "DS1",
+      "stage": "sentry",
+      "n": 75,
+      "event_success": 34,
+      "literal_terminal_success": 34,
+      "injection_window_hit": 75,
+      "terminal_fail": 0,
+      "nuisance_mean": 1.4533333333333334,
+      "nuisance_sd": 1.780474681114587,
+      "lead_fail_per_1000_mean": 3.5087719298245617,
+      "lead_fail_per_1000_sd": 4.806193323769595,
+      "post_fail_fraction_mean": 0.0048000000000000004,
+      "post_fail_fraction_sd": 0.0071500435749107935,
+      "fault_coverage_mean": 0.6928104575163399,
+      "fault_coverage_sd": 0.07072157615410776,
+      "sample_agreement_mean": 0.9582439024390244,
+      "sample_agreement_sd": 0.009394758736221968
+    },
+    {
+      "dataset": "DS2",
+      "stage": "full",
+      "n": 75,
+      "event_success": 67,
+      "literal_terminal_success": 67,
+      "injection_window_hit": 75,
+      "terminal_fail": 0,
+      "nuisance_mean": 0.10666666666666667,
+      "nuisance_sd": 0.3107677212591047,
+      "lead_fail_per_1000_mean": 0.5103668261562998,
+      "lead_fail_per_1000_sd": 1.4869268959765771,
+      "post_fail_fraction_mean": 0.0,
+      "post_fail_fraction_sd": 0.0,
+      "fault_coverage_mean": 0.2015686274509804,
+      "fault_coverage_sd": 0.013508005153517263,
+      "sample_agreement_mean": 0.9004227642276423,
+      "sample_agreement_sd": 0.0018098656048497835
+    },
+    {
+      "dataset": "DS2",
+      "stage": "sentry",
+      "n": 75,
+      "event_success": 0,
+      "literal_terminal_success": 0,
+      "injection_window_hit": 75,
+      "terminal_fail": 0,
+      "nuisance_mean": 3.72,
+      "nuisance_sd": 1.8125687312224619,
+      "lead_fail_per_1000_mean": 15.119617224880383,
+      "lead_fail_per_1000_sd": 6.5830313082846175,
+      "post_fail_fraction_mean": 0.0037333333333333337,
+      "post_fail_fraction_sd": 0.0050510903291778025,
+      "fault_coverage_mean": 0.25542483660130716,
+      "fault_coverage_sd": 0.019333892648436674,
+      "sample_agreement_mean": 0.8983089430894309,
+      "sample_agreement_sd": 0.0037822062850166338
+    },
+    {
+      "dataset": "DS3",
+      "stage": "full",
+      "n": 75,
+      "event_success": 70,
+      "literal_terminal_success": 62,
+      "injection_window_hit": 75,
+      "terminal_fail": 11,
+      "nuisance_mean": 0.08,
+      "nuisance_sd": 0.3187814637359293,
+      "lead_fail_per_1000_mean": 0.3827751196172249,
+      "lead_fail_per_1000_sd": 1.5252701614159296,
+      "post_fail_fraction_mean": 0.3967111111111111,
+      "post_fail_fraction_sd": 0.24707629326727137,
+      "fault_coverage_mean": 0.3253067993366501,
+      "fault_coverage_sd": 0.2027512998724265,
+      "sample_agreement_mean": 0.6690406504065041,
+      "sample_agreement_sd": 0.09909957929258602
+    },
+    {
+      "dataset": "DS3",
+      "stage": "sentry",
+      "n": 75,
+      "event_success": 0,
+      "literal_terminal_success": 0,
+      "injection_window_hit": 75,
+      "terminal_fail": 74,
+      "nuisance_mean": 19.64,
+      "nuisance_sd": 8.159954954830624,
+      "lead_fail_per_1000_mean": 93.97129186602871,
+      "lead_fail_per_1000_sd": 39.042846673830745,
+      "post_fail_fraction_mean": 0.9825777777777778,
+      "post_fail_fraction_sd": 0.037948809100050974,
+      "fault_coverage_mean": 0.8613598673300166,
+      "fault_coverage_sd": 0.039159935278931406,
+      "sample_agreement_mean": 0.884130081300813,
+      "sample_agreement_sd": 0.01705137196448537
+    }
+  ],
+  "baseline_checks": {
+    "baseline_adaptive_conformal": {
+      "initial_flags": 562,
+      "final_flags": 562,
+      "overrides": 0,
+      "new_fail": 0
+    },
+    "baseline_classical_fdi": {
+      "initial_flags": 913,
+      "final_flags": 864,
+      "overrides": 124,
+      "new_fail": 75
+    },
+    "baseline_deterministic_requirements_checker": {
+      "initial_flags": 913,
+      "final_flags": 781,
+      "overrides": 132,
+      "new_fail": 0
+    },
+    "baseline_homogeneous_multi_agent": {
+      "initial_flags": 913,
+      "final_flags": 912,
+      "overrides": 1,
+      "new_fail": 0
+    },
+    "baseline_math_sentry_only": {
+      "initial_flags": 913,
+      "final_flags": 913,
+      "overrides": 0,
+      "new_fail": 0
+    },
+    "baseline_single_llm_agent": {
+      "initial_flags": 913,
+      "final_flags": 911,
+      "overrides": 2,
+      "new_fail": 0
+    }
+  },
+  "promotions": {
+    "DS1": {
+      "attempts": 94,
+      "promotions": 81,
+      "fault_promotions": 42
+    },
+    "DS2": {
+      "attempts": 233,
+      "promotions": 98,
+      "fault_promotions": 23
+    },
+    "DS3": {
+      "attempts": 6525,
+      "promotions": 804,
+      "fault_promotions": 607
+    }
+  },
+  "round2": {
+    "DS1/attempts": 13,
+    "DS1/final_pass": 13,
+    "DS2/attempts": 135,
+    "DS2/final_pass": 135,
+    "DS3/attempts": 5721,
+    "DS3/final_pass": 5592
+  },
+  "ds1_vote_rounds": 2037,
+  "vote_errors": {
+    "req_eng": 74,
+    "fail_mgr": 1089,
+    "sys_eng": 66
+  },
+  "pair_agreement": {
+    "req_eng/fail_mgr": 1006,
+    "req_eng/sys_eng": 2029,
+    "fail_mgr/sys_eng": 1014
+  },
+  "tests": [
+    {
+      "comparison": "full vs baseline_adaptive_conformal",
+      "n": 25,
+      "full_only_success": 25,
+      "baseline_only_success": 0,
+      "p": 5.960464477539063e-08,
+      "p_holm": 3.5762786865234375e-07
+    },
+    {
+      "comparison": "full vs baseline_classical_fdi",
+      "n": 25,
+      "full_only_success": 2,
+      "baseline_only_success": 0,
+      "p": 0.5,
+      "p_holm": 1
+    },
+    {
+      "comparison": "full vs baseline_deterministic_requirements_checker",
+      "n": 25,
+      "full_only_success": 2,
+      "baseline_only_success": 0,
+      "p": 0.5,
+      "p_holm": 1
+    },
+    {
+      "comparison": "full vs baseline_homogeneous_multi_agent",
+      "n": 25,
+      "full_only_success": 15,
+      "baseline_only_success": 0,
+      "p": 6.103515625e-05,
+      "p_holm": 0.00030517578125
+    },
+    {
+      "comparison": "full vs baseline_math_sentry_only",
+      "n": 25,
+      "full_only_success": 15,
+      "baseline_only_success": 0,
+      "p": 6.103515625e-05,
+      "p_holm": 0.00030517578125
+    },
+    {
+      "comparison": "full vs baseline_single_llm_agent",
+      "n": 25,
+      "full_only_success": 15,
+      "baseline_only_success": 0,
+      "p": 6.103515625e-05,
+      "p_holm": 0.00030517578125
+    }
+  ],
+  "joint_errors": {
+    "010": 1023,
+    "111": 66,
+    "000": 940,
+    "100": 8
+  },
+  "majority_errors": 66,
+  "unique_escalations": {
+    "DS1": 2024,
+    "DS2": 1012,
+    "DS3": 11306
+  },
+  "fallback_text_mentions": {}
+}

@@ -1,0 +1,7 @@
+comparison,n,full_only_success,baseline_only_success,p,p_holm
+full vs baseline_adaptive_conformal,25,25,0,5.960464477539063e-08,3.5762786865234375e-07
+full vs baseline_classical_fdi,25,2,0,0.5,1
+full vs baseline_deterministic_requirements_checker,25,2,0,0.5,1
+full vs baseline_homogeneous_multi_agent,25,15,0,6.103515625e-05,0.00030517578125
+full vs baseline_math_sentry_only,25,15,0,6.103515625e-05,0.00030517578125
+full vs baseline_single_llm_agent,25,15,0,6.103515625e-05,0.00030517578125

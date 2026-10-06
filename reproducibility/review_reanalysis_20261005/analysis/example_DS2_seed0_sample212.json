@@ -1,0 +1,28 @@
+[
+  {
+    "sample_id": 212,
+    "actual_label": 1,
+    "actual_class": "FAIL",
+    "start_time": "2026-03-17T02:10:46.282599",
+    "agent_decisions": [
+      {
+        "agent_name": "sentry",
+        "agent_type": "AgentType.SENTRY",
+        "model_used": "rule-based",
+        "decision": "PASS",
+        "confidence": 0.6636781288508627,
+        "reasoning": "Prediction=-0.7355, Error=1.4202, Bound=1.4881 (\u03b1=0.02), Uncertainty=0.1891 (bound=0.3245), uncertainty_only_fail=False. Within conformal/policy bounds.",
+        "timestamp": "2026-03-17T02:10:46.282628",
+        "payload_summary": {
+          "error": 1.420230209827423,
+          "bound": 1.488077251095845,
+          "prediction": -0.7355358004570007
+        }
+      }
+    ],
+    "final_decision": "PASS",
+    "was_override": false,
+    "correct": false,
+    "end_time": "2026-03-17T02:10:46.287233"
+  }
+]

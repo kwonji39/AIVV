@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "dataset": "DS1",
+      "stage": "sentry",
+      "fvr": 34,
+      "literal_release": 34,
+      "raw_record_reconstruction": "PASS"
+    },
+    {
+      "dataset": "DS1",
+      "stage": "full",
+      "fvr": 75,
+      "literal_release": 75,
+      "raw_record_reconstruction": "PASS"
+    },
+    {
+      "dataset": "DS2",
+      "stage": "sentry",
+      "fvr": 0,
+      "literal_release": 0,
+      "raw_record_reconstruction": "PASS"
+    },
+    {
+      "dataset": "DS2",
+      "stage": "full",
+      "fvr": 67,
+      "literal_release": 67,
+      "raw_record_reconstruction": "PASS"
+    },
+    {
+      "dataset": "DS3",
+      "stage": "sentry",
+      "fvr": 0,
+      "literal_release": 0,
+      "raw_record_reconstruction": "PASS"
+    },
+    {
+      "dataset": "DS3",
+      "stage": "full",
+      "fvr": 70,
+      "literal_release": 62,
+      "raw_record_reconstruction": "PASS"
+    }
+  ],
+  "baseline_overrides_inside_fault": "PASS",
+  "exact_tests_second_calculation": "PASS",
+  "fisher_sensitivity": [
+    {
+      "comparison": "full vs baseline_adaptive_conformal",
+      "fisher_two_sided": 1.5821457204897235e-14,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    },
+    {
+      "comparison": "full vs baseline_classical_fdi",
+      "fisher_two_sided": 0.4897959183673469,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    },
+    {
+      "comparison": "full vs baseline_deterministic_requirements_checker",
+      "fisher_two_sided": 0.4897959183673469,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    },
+    {
+      "comparison": "full vs baseline_homogeneous_multi_agent",
+      "fisher_two_sided": 2.9044935575148822e-06,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    },
+    {
+      "comparison": "full vs baseline_math_sentry_only",
+      "fisher_two_sided": 2.9044935575148822e-06,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    },
+    {
+      "comparison": "full vs baseline_single_llm_agent",
+      "fisher_two_sided": 2.9044935575148822e-06,
+      "note": "sensitivity treating groups as independent; primary test uses pairing"
+    }
+  ]
+}

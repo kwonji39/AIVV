@@ -1,0 +1,35 @@
+{
+  "ablation": {
+    "Sentry": [
+      34,
+      0,
+      0
+    ],
+    "Council": [
+      74,
+      60,
+      55
+    ],
+    "Full": [
+      75,
+      67,
+      70
+    ]
+  },
+  "baseline": {
+    "Full AIVV": 25,
+    "Classical FDI": 23,
+    "Deterministic checker": 23,
+    "Homogeneous council": 10,
+    "Single LLM": 10,
+    "Sentry only": 10,
+    "Rolling residual": 0
+  },
+  "role_shifts": [
+    75,
+    42,
+    70,
+    33,
+    36
+  ]
+}

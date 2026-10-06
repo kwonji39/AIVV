@@ -4,6 +4,10 @@ Agent-Integrated Verification and Validation (AIVV) is a hybrid anomaly detectio
 
 AIVV automates this oversight by combining an LSTM/conformal anomaly detector with a deliberative Large Language Model (LLM) outer loop. Mathematically flagged anomalies are escalated to role-specialized council agents that validate nuisance faults and true failures against natural-language requirements. Once a fault is validated, the council assesses post-fault behavior against operational tolerances and produces actionable V&V artifacts, including gain-tuning proposals. The current experiments use an Unmanned Underwater Vehicle (UUV) yaw-fault time-series simulator to demonstrate scalable LLM-mediated oversight for time-series V&V workflows.
 
+## Data and reproducibility
+
+The archived run records, per-run scores, cohort specification, and offline analysis scripts for the UUV and spacecraft evaluations are documented in [reproducibility/README.md](reproducibility/README.md). The external SMAP/MSL corpus is identified there and is not redistributed in this repository.
+
 ## Setup
 
 Create the conda environment used for this project:

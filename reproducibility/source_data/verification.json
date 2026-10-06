@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "original_file_hashes_verified": 660,
+  "experiment2_complete_runs": 60,
+  "experiment2_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "experiment2_results": [
+    {
+      "channel": "E-8",
+      "seeds": "0-14",
+      "n": 15,
+      "successes": 12,
+      "fvr_percent": 80.0,
+      "test_samples": 4255,
+      "council_samples_mean": 1007.4666666666667,
+      "council_share_percent": 23.677242459851154,
+      "adaptation_invocations_mean": 297.1333333333333
+    },
+    {
+      "channel": "F-5",
+      "seeds": "0-14",
+      "n": 15,
+      "successes": 15,
+      "fvr_percent": 100.0,
+      "test_samples": 1950,
+      "council_samples_mean": 93.46666666666667,
+      "council_share_percent": 4.793162393162393,
+      "adaptation_invocations_mean": 2.6666666666666665
+    },
+    {
+      "channel": "T-4",
+      "seeds": "0-14",
+      "n": 15,
+      "successes": 15,
+      "fvr_percent": 100.0,
+      "test_samples": 1098,
+      "council_samples_mean": 29.866666666666667,
+      "council_share_percent": 2.7200971463266543,
+      "adaptation_invocations_mean": 28.2
+    },
+    {
+      "channel": "D-1",
+      "seeds": "0-14",
+      "n": 15,
+      "successes": 15,
+      "fvr_percent": 100.0,
+      "test_samples": 4244,
+      "council_samples_mean": 2918.2,
+      "council_share_percent": 68.76060320452403,
+      "adaptation_invocations_mean": 49.53333333333333
+    }
+  ],
+  "experiment1": "Original author-reported results retained; no new metric or independent reproduction claim."
+}
